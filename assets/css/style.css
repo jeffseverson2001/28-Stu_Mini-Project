@@ -1,0 +1,94 @@
+ /* || GENERAL STYLES */
+ :root {
+    --color: rebeccapurple;
+    --border-color: lightgray;
+    --background-color: black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
+    font-size: 14px;
+    color: var(--color);
+    background-color: var(--background-color);
+}
+
+/* || HEADER STYLES */
+header {
+    display: inline-block;
+    margin: 10px;
+}
+
+header article {
+    display: inline-block;
+    color: lightgray;
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header h1{
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+    border: var(--border-color);
+    border-style: solid;
+    border-radius: 15px;
+    padding: 5px 5px;
+    margin-block-start: -40px;
+    z-index: 1;
+}
+
+/* || MAIN STYLES */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+section {
+    border: var(--border-color);
+    border-style: dashed;
+    padding: 20px;
+    margin: 10px;
+    width: 260px;
+    /* flex: 0 1 150px; */
+    flex-basis: 25%;
+} 
+
+section p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+code {
+    color:lightgray;
+    background-color: var(--color);
+}
+
+/* || CLASS STYLES */
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#footer-icon::after {
+    content: "\2665";
+    color: red;
+    font-size: 24px;
+}
+
+/* || ID STYLES */
+
+
+/* || MEDIA QUERIES */
+
+
